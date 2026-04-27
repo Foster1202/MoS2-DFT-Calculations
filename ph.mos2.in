@@ -1,0 +1,14 @@
+&INPUTPH
+  prefix   = 'pwscf',
+  outdir   = './tmp',
+  fildyn   = 'mos2.dyn',
+  
+  tr2_ph   = 1.0d-12,
+  ldisp    = .true.,
+  
+  nq1 = 4,
+  nq2 = 4,
+  nq3 = 1,
+  
+  recover  = .true.,
+/

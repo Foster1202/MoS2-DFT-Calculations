@@ -1,0 +1,8 @@
+&DOS
+  prefix  = 'mos2',
+  outdir  = './tmp/',
+  fildos  = 'mos2.dos',
+  Emin    = -15.0,
+  Emax    =  10.0,
+  DeltaE  =  0.05,
+/

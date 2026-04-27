@@ -1,0 +1,40 @@
+&CONTROL
+  title='MoS2 Monolayer scf', 
+  calculation='scf',
+  pseudo_dir='./', 
+  outdir='./tmp', 
+  verbosity='high',
+  tprnfor=.true., 
+  tstress=.true., 
+/
+&SYSTEM
+  ibrav= 0, 
+  nat= 3, 
+  ntyp= 2, 
+  occupations = 'smearing', 
+  smearing = 'gauss', 
+  degauss = 1.0d-2,
+  ecutwfc = 50,
+  ecutrho = 400,               
+/
+&ELECTRONS
+  conv_thr = 1.0d-8,
+  mixing_beta = 0.7d0,
+/
+
+ATOMIC_SPECIES
+  Mo 95.94   mo_pbe_v1.uspp.F.UPF
+  S  32.066  s_pbe_v1.4.uspp.F.UPF
+
+CELL_PARAMETERS (angstrom)
+   3.183246068   0.000000000   0.000000000
+  -1.591623034   2.756771961   0.000000000
+   0.000000000   0.000000000  17.334599950
+
+ATOMIC_POSITIONS (crystal)
+Mo            0.0000000000        0.0000000000        0.5000000000
+S             0.3333333300        0.6666666700        0.5901283080
+S             0.3333333400        0.6666666700        0.4098716920
+
+K_POINTS {automatic}
+  9 9 1 0 0 0
