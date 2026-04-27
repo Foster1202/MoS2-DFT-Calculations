@@ -2,7 +2,7 @@
 
 This directory contains the Quantum ESPRESSO input and output files used for a DFT study of monolayer MoS2.  The workflow covers geometry relaxation, SCF convergence checks, electronic band structure, density of states, phonons, and optical-response post-processing.
 
-The `tmp` scratch directory and report/manuscript files are intentionally omitted from the uploaded version.  All important input files, selected output files, pseudopotentials, and processed data files are included for review.
+The `tmp` scratch directory is intentionally omitted from the uploaded version.  All important input files, selected output files, pseudopotentials, and processed data files are included for review.
 
 ## Main Files
 
