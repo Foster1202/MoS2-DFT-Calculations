@@ -1,0 +1,41 @@
+License and Third-Party Notices
+================================
+
+This repository contains input files, selected output files, and processed data
+from Quantum ESPRESSO calculations for monolayer MoS2.  It does not include the
+Quantum ESPRESSO source code or executables.
+
+Quantum ESPRESSO
+----------------
+
+Quantum ESPRESSO is free software released under the GNU General Public License.
+Scientific work using Quantum ESPRESSO should acknowledge/cite the code.  The
+recommended general references are:
+
+- P. Giannozzi et al., J. Phys.: Condens. Matter 21, 395502 (2009).
+- P. Giannozzi et al., J. Phys.: Condens. Matter 29, 465901 (2017).
+
+Official Quantum ESPRESSO citation and license guidance:
+https://www.quantum-espresso.org/Doc/user_guide/node6.html
+
+Pseudopotentials
+----------------
+
+The included main pseudopotentials are PBE UPF files:
+
+- mo_pbe_v1.uspp.F.UPF
+- s_pbe_v1.4.uspp.F.UPF
+
+The optical-response folder also includes norm-conserving ONCV
+pseudopotentials:
+
+- optical/Mo.nc.upf
+- optical/S.nc.upf
+
+The ONCV pseudopotential headers state that citation is not required under the
+GNU GPL, but suggest citing:
+
+- D. R. Hamann, Phys. Rev. B 88, 085117 (2013).
+
+No ownership is claimed here over Quantum ESPRESSO or third-party
+pseudopotentials; their original notices and licenses remain in effect.
